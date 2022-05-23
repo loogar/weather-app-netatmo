@@ -10,7 +10,7 @@ The goal of this exercise is to develop a weather widget app using netatmo's  We
 - Run the following command on your terminal to clone the repo into your local directory.
 
 ``` 
-git clone 
+git clone https://github.com/loogar/weather-app-netatmo.git
 ```
 ## Project setup
 ```
