@@ -18,7 +18,7 @@ yarn install
 ```
 
 ## To create a AccessToken and run locally
-- you need to create third app from https://dev.netatmo.com/. 
+- you need to create an account or use an existing one and create an app in https://dev.netatmo.com/. 
 - You will need to create a netatmo account and then an application (https://dev.netatmo.com/apps/)
 - You need client_id, client_secret, username, password to run this app .
 - You need to create and .env file and copy the contents from .env.example
