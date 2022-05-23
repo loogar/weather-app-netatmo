@@ -15,17 +15,17 @@ const TemperatureData = ({ weatherData }) => {
       direction={['column', 'column', 'row', 'row']}
     >
       <InfoTile
-        value={weatherData.temperatureData.temperature + '°'}
+        value={`${weatherData.temperatureData.temperature}°C`}
         icon={FaTemperatureHigh}
         heading="Temperature"
       />
       <InfoTile
-        value={weatherData.temperatureData.humidity + '%'}
+        value={`${weatherData.temperatureData.humidity}%`}
         icon={WiHumidity}
         heading="Humidity"
       />
       <InfoTile
-        value={weatherData.pressure + 'PA'}
+        value={`${weatherData.pressure}PA`}
         icon={BsSpeedometer2}
         heading="Pressure"
       />
