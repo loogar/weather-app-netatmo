@@ -8,7 +8,7 @@ const InfoTile = ({ value, icon, heading }) => {
       h="10rem"
       p="9"
       color="#FFF7ED"
-      backdropFilter=" blur(4px)"
+      backdropFilter=" blur(10px)"
       direction="column"
     >
       <Icon as={icon} />

@@ -11,7 +11,7 @@ const Errors = ({ code }) => {
           color="white"
           boxShadow="2xl"
           p="9"
-          backdropFilter=" blur(4px)"
+          backdropFilter=" blur(10px)"
           direction="column"
         >
           <Text fontSize="3em">Invalid Request, </Text>
@@ -25,7 +25,7 @@ const Errors = ({ code }) => {
           color="white"
           boxShadow="2xl"
           p="9"
-          backdropFilter=" blur(4px)"
+          backdropFilter=" blur(10px)"
           direction="column"
         >
           <Text fontSize="3em">No, Data Found </Text>
@@ -39,7 +39,7 @@ const Errors = ({ code }) => {
           color="white"
           boxShadow="2xl"
           p="9"
-          backdropFilter=" blur(4px)"
+          backdropFilter=" blur(10px)"
           direction="column"
         >
           <Text fontSize="3em">Please, refresh your page.</Text>
@@ -52,7 +52,7 @@ const Errors = ({ code }) => {
           color="white"
           boxShadow="2xl"
           p="9"
-          backdropFilter=" blur(4px)"
+          backdropFilter=" blur(10px)"
           direction="column"
         >
           <Text fontSize="3em">Sorry, Something went wrong.</Text>

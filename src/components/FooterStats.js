@@ -11,7 +11,7 @@ const FooterStats = ({ windData, rainData }) => {
       boxShadow="2xl"
       p="4rem"
       color="white"
-      backdropFilter=" blur(4px)"
+      backdropFilter=" blur(10px)"
     >
       <Stack
         direction={['column', 'column', 'row', 'row']}

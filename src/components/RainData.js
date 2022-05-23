@@ -13,7 +13,7 @@ import { BsFillCloudLightningRainFill } from 'react-icons/bs';
 const RainData = ({ rainData }) => {
   return (
     <Flex gridGap={2} direction="column">
-      <Flex color="#FFEACE" direction="row">
+      <Flex color="#00E2BF" direction="row">
         <Icon as={BsFillCloudLightningRainFill} />
         <Spacer />
         <Text>Rain</Text>
@@ -23,7 +23,7 @@ const RainData = ({ rainData }) => {
         direction={['column', 'column', 'row', 'row']}
         spacing={5}
         divider={<StackDivider borderColor="gray.200" />}
-        color="#FFEACE"
+        color="#00E2BF"
       >
         <VStack divider={<StackDivider borderColor="gray.200" />}>
           <Text>
